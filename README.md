@@ -41,19 +41,19 @@ The purpose of this project was to create a binary classifier, using a neural ne
 ### Were you able to achieve the target model performance?
 
 -	No unfortunately I was not able to achieve the target model performance
--	My first run through I was able to get 66% using 8o neurons for the first layer and 20 for the second layer
+-	My first run through I was able to get 70% using 8o neurons for the first layer and 30 for the second layer
 
-![optimalization 1](https://github.com/backwater-graphics/Neural_Network_Charity_Analysis/blob/main/Images/optimalization1.png)
+![optimalization 1](https://github.com/backwater-graphics/Neural_Network_Charity_Analysis/blob/main/Images/optimalization1a.png)
 ---
  
 -	My second run through I was able to get 69% adding a hidden layer and using 87 neurons for the first layer, 12 for the second layer and 40 for the third layer
 
-![ optimalization 2](https://github.com/backwater-graphics/Neural_Network_Charity_Analysis/blob/main/Images/optimalization2b.png)
+![ optimalization 2](https://github.com/backwater-graphics/Neural_Network_Charity_Analysis/blob/main/Images/optimalization2a.png)
 ---
  
--	For my last attempt I removed the third layer and increased the neurons to 356 for the first layer and 102 for the second layer. 
+-	For my last attempt I got 72%, for which I removed the third layer and increased the neurons to 356 for the first layer and 102 for the second layer. 
  
-![ optimalization 3](https://github.com/backwater-graphics/Neural_Network_Charity_Analysis/blob/main/Images/optimalization3.png)
+![ optimalization 3](https://github.com/backwater-graphics/Neural_Network_Charity_Analysis/blob/main/Images/optimalization3a.png)
 ---
 
 ### What steps did you take to try and increase model performance?
@@ -62,4 +62,4 @@ I reprocessed the data and adjusted the bins to accommodate for the wide range o
 
 ## Summary
 
-The models accuracy ended up being 72.5% - we started with a data set and tried to predict whether or not the project would be successful on all of the features that we used after dropping two features that we figured to be irrelevant. Although I did not get to the accuracy of 75% that I wanted it is possible the reason for this is we may have had to drop more features which may have affected how good the neural network actually is. The best way to increase the accuracy of our model is to have solid data added to this model, the accuracy of this model will be much more concrete., or perhaps using a different model like random forest which can handle more complex data that is not linear. 
+The models accuracy ended up being 72.5% - we started with a data set and tried to predict whether or not the project would be successful on all of the features that we used after dropping two features that we figured to be irrelevant. Although I did not get to the accuracy of 75% that I wanted it is possible the reason for this is we may have had to drop more features which may have affected how good the neural network actually is. The best way to increase the accuracy of our model is to have solid data added to this model, the accuracy of this model will be much more concrete., or perhaps using a different model like <b>Random Forest</b> which can handle more complex data that is not linear. 
